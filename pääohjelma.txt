@@ -30,7 +30,7 @@ Ennen pelin alkamista:
 	Pelaaja on nyt näkyvillä.
 
 Pelin alkamisen aikana:
-	Sano "Kello on 22.43. Olet Navetassa yömyöhään tarkoituksenasi tehdä viimeiset laskarit ennen deadlineä huomenna klo 12.15.".
+	Sano "Kello on 22.43. Olet Navetassa yömyöhään tarkoituksenasi tehdä viimeiset laskarit ennen deadlinea huomenna klo 12.15.".
 	Sano "[rivinvaihto][rivinvaihto]".
 	Sano "---[rivinvaihto]".
 	Sano "GURULA JA NAVETTA[rivinvaihto]Tekstiseikkailu[rivinvaihto]".
