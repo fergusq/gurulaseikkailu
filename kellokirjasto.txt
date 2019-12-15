@@ -1,0 +1,73 @@
+>>> Kellonaika
+
+"klo [tuntimäärä];[minuuttimäärä]" on kellonajan merkintä.
+
+Nykyinen kellonaika on kellonaika.
+Nykyinen kellonaika on alussa klo 22 ; 43.
+
+>>> Ajan tarkistaminen
+
+Ajan tarkistaminen on toiminto.
+Ajan tarkistamisen komento on "tarkista nyt aika".
+Tulkitse "tarkista aika" ajan tarkistamisena.
+Tulkitse "mitä kello on" ajan tarkistamisena.
+Tulkitse "kello" ajan tarkistamisena.
+
+Ajan tarkistamisen aikana:
+	Sano fokalisoijalle "Kello näyttää [nykyisen kellonajan tuntimäärä].[nykyisen kellonajan minuuttimäärä].".
+
+>>> Kellon käsite
+
+Kello on esineen alakäsite.
+Kellon kuvaus on yleensä "Tavanomainen pyöreä seinäkello, joita näkee kouluissa, virastoissa ja juna-asemilla.".
+
+Kellon katsomisen jälkeen:
+	Tarkista nyt aika.
+
+>>> Ajan kuluminen
+
+Ajan kuluminen on toiminto.
+Ajan kulumisen komento on "aika kuluu".
+
+Ajan kulumisen aikana:
+	Jos nykyisen kellonajan minuuttimäärä = 59:
+		Nykyinen kellonaika on nyt klo (nykyisen kellonajan tuntimäärä + 1) ; 0.
+	Muulloin:
+		Nykyinen kellonaika on nyt klo nykyisen kellonajan tuntimäärä ; (nykyisen kellonajan minuuttimäärä + 1).
+	Jos nykyisen kellonajan tuntimäärä = 24:
+		Nykyinen kellonaika on nyt klo 0 ; nykyisen kellonajan minuuttimäärä.
+
+> Aika kuluu vain pelaajan tekemien toimintojen seurauksena:
+
+Ennen ajan kulumista:
+	Jos fokalisoija on tietokoneen ohjaama:
+		Keskeytä toiminto.
+
+>> Aikaa kuluttavat toiminnot
+
+> Aika kuluu, kun tehdään tiettyjä asioita.
+> Alla on listattu tekstiseikkailukirjaston toiminnot, jotka kuluttavat aikaa.
+
+Huoneeseen siirtymisen jälkeen:
+	Aika kuluu, jos mahdollista.
+
+Esineen katsomisen jälkeen:
+	Aika kuluu, jos mahdollista.
+
+Esineen ottamisen jälkeen:
+	Aika kuluu, jos mahdollista.
+
+Esineen syömisen jälkeen:
+	Aika kuluu, jos mahdollista.
+
+Esineen juomisen jälkeen:
+	Aika kuluu, jos mahdollista.
+
+Esineen sytyttämisen jälkeen:
+	Aika kuluu, jos mahdollista.
+
+Ihmistä vastaan hyökkäämisen jälkeen:
+	Aika kuluu, jos mahdollista.
+
+Ihmiselle puhumisen jälkeen:
+	Aika kuluu, jos mahdollista.

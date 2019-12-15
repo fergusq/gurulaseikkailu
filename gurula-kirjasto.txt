@@ -1,0 +1,139 @@
+>>> Toiminnot
+
+>> Avun pyytäminen
+
+Avun pyytäminen on toiminto.
+Tulkitse "apua" avun pyytämisenä.
+Tulkitse "ohje" avun pyytämisenä.
+Tulkitse "help" avun pyytämisenä.
+
+Avun pyytämisen jälkeen:
+	Sano "'Gurula ja Navetta' on suomenkielinen tekstiseikkailu.[rivinvaihto][rivinvaihto]".
+	Sano "Kokeile seuraavia komentoja:[rivinvaihto]".
+	Sano "- 'tutki naulakkoa' (lyhenne: 't naulakko')[rivinvaihto]".
+	Sano "- 'käytä dos-konetta'[rivinvaihto]".
+	Sano "- 'mene länteen' (lyhenne: 'l', lännessä on Gurula)[rivinvaihto]".
+
+>> Huoneen katsominen
+
+Tulkitse "katso [huonetta]" huoneen esittelemisenä.
+Tulkitse "tutki [huonetta]" huoneen esittelemisenä.
+Tulkitse "t [huone]" huoneen esittelemisenä.
+
+>> Miettiminen
+
+[Asian] miettiminen on toiminto.
+Tulkitse "mieti [asiaa]" miettimisenä.
+Tulkitse "pohdi [asiaa]" miettimisenä.
+
+Esineen miettimisen jälkeen:
+	Kuvaile sitä.
+
+Laskuharjoitus on asia.
+Tulkitse "laskari" laskuharjoituksena.
+Tulkitse "deadline" laskuharjoituksena.
+
+Laskuharjoituksen miettimisen aikana:
+	Sano "Pohdit tulevia laskareitasi. Kannattaisikohan tehdä jotain niiden eteen? Ensimmäinen askel olisi kynän ja paperin löytäminen.".
+
+>> Kertominen
+
+Tulkitse "puhu [ihmiselle] [asiasta]" kertomisena.
+Tulkitse "kysy [ihmiseltä] [asiasta]" kertomisena.
+Tulkitse "mainitse [ihmiselle] [asiasta]" kertomisena.
+
+>> Käyttäminen
+
+[Esineen] käyttäminen on toiminto.
+Esineen käyttämisen komento on "käytä nyt [esinettä]".
+Tulkitse "käytä [esinettä]" käyttämisenä.
+Tulkitse "pelaa [esineellä]" käyttämisenä.
+
+Ennen piilossa olevan esineen käyttämistä:
+	Sano fokalisoijalle "Et näe sellaista asiaa.".
+	Keskeytä toiminto.
+	(näkyvyysehto)
+
+Esine on joko interaktiivinen tai ei-interaktiivinen.
+Esine on yleensä ei-interaktiivinen.
+
+Ennen ei-interaktiivisen esineen käyttämistä:
+	Sano fokalisoijalle "Et tiedä miten [sitä] voisi käyttää.".
+	Keskeytä toiminto.
+	(interaktiivisuusehto)
+
+>>> Avaimet
+
+Henkilökunta-avain on esine.
+"Henkilökunta-avain näyttää pieneltä siniseltä läpyskältä."
+Tulkitse "avain" henkilökunta-avaimena.
+
+Opiskelija-avain on esine pelaajan mukana.
+"Opiskelija-avain on soikea harmaa muovikapseli."
+Tulkitse "avain" opiskelija-avaimena.
+
+>>> Kokemukset
+
+Kokemus on käsite.
+Kokemus on joko koettu tai kokeilematon.
+Kokemus on yleensä kokeilematon.
+
+[Kokemuksen] kokeileminen on toiminto.
+Tulkitse "kokeile [kokemusta]" kokeilemisena.
+Tulkitse "pelaa [kokemusta]" kokeilemisena.
+
+>>> Tietokoneet
+
+Tietokone on esineen alakäsite.
+Tietokone on yleensä interaktiivinen.
+
+Tietokone on joko avoin tai lukittu.
+Tietokone on yleensä avoin.
+
+>> Kirjautuminen
+
+[Tietokoneeseen] kirjautuminen on toiminto.
+Tietokoneeseen kirjautumisen komento on "kirjaudu nyt [tietokoneeseen]".
+Tulkitse "kirjaudu [tietokoneeseen]" kirjautumisena.
+Tulkitse "avaa [tietokone]" kirjautumisena.
+
+Tarkoittaako pelaaja tietokoneeseen kirjautumista:
+	varmasti
+
+Ennen ei-avattavaan tietokoneeseen kirjautumista:
+	Jos se on lukittu:
+		Sano fokalisoijalle "Et tiedä, miten [siihen] kirjaudutaan.".
+	Muulloin:
+		Sano fokalisoijalle "Ei [siihen] tarvitse kirjautua.".
+	Keskeytä toiminto.
+
+Ennen avoimeen tietokoneeseen kirjautumista:
+	Sano fokalisoijalle "Olet jo kirjautunut [siihen].".
+	Keskeytä toiminto.
+
+Tietokoneeseen kirjautumisen aikana:
+	Sano fokalisoijalle "Kirjaudut [siihen].".
+	Se on nyt avoin.
+
+[Tietokoneesta] ulos kirjautuminen on toiminto.
+Tietokoneesta ulos kirjautumisen komento on "kirjaudu nyt ulos [tietokoneesta]".
+Tulkitse "kirjaudu ulos [tietokoneesta]" tietokoneesta ulos kirjautumisena.
+Tulkitse "kirjaudu [tietokoneesta] ulos" tietokoneesta ulos kirjautumisena.
+
+Ennen lukitusta tietokoneesta ulos kirjautumista:
+	Sano fokalisoijalle "Et ole kirjautunut [siihen].".
+	Keskeytä toiminto.
+
+Ennen ei-avattavasta tietokoneesta ulos kirjautumista:
+	Sano fokalisoijalle "Et tiedä, miten [siitä] kirjaudutaan ulos.".
+	Keskeytä toiminto.
+
+Tietokoneesta ulos kirjautumisen aikana:
+	Sano fokalisoijalle "Kirjaudut ulos [siitä].".
+	Se on nyt lukittu.
+
+Ennen tietokoneen käyttämistä:
+	Jos se on lukittu:
+		Sano fokalisoijalle "(Kirjaudutaan ensin [siihen])".
+		Kirjaudu nyt siihen.
+

@@ -1,0 +1,191 @@
+Avaa nimiavaruus.
+
+>>> RV-kone
+
+RV-kone on kiinteä avattava lukittu tietokone Gurula-huoneessa.
+"Navetan oven viereisellä pöydällä lepää RV-kone, jolla voi ostaa erilaisia tuotteita."
+Tulkitse "rv" RV-koneena.
+
+>>> Tuote
+
+Tuote on esineen alakäsite.
+Tuotteella on hinnaksi kutsuttu kokonaisluku.
+
+RV-koneen kuvailemisen jälkeen:
+	Sano "Voit ostaa RV:stä tuotteita komennolla 'osta [satunnainen tuote]'.".
+
+Tuotteen kuvailemisen jälkeen:
+	Sano "Sen hinta on [sen hinta] snt.".
+
+>>> RV-saldo
+
+Ihmisellä on RV-saldoksi kutsuttu kokonaisluku.
+Ihmisen RV-saldo on yleensä 1000.
+Pelaajan RV-saldo on 10.
+
+RV-koneeseen kirjautumisen jälkeen:
+	Sano fokalisoijalle "RV-saldosi on: [fokalisoijan RV-saldo] snt.[rivinvaihto][rivinvaihto]".
+
+>>> RV-ajastin
+
+Ihmisellä on RV-ajastimeksi kutsuttu kokonaisluku.
+Ihmisen RV-ajastin on yleensä 0.
+
+Ennen RV-koneeseen kirjautumista:
+	Jos fokalisoijan RV-ajastin > 0:
+		Sano fokalisoijalle "RV-kone ei anna sinun kirjautua sisään, sillä on kulunut liian vähän aikaa rangaistuksen alusta.".
+		Keskeytä toiminto.
+
+Ajan kulumisen jälkeen:
+	Jos fokalisoijan RV-ajastin > 0:
+		Fokalisoijan RV-ajastin on nyt (fokalisoijan RV-ajastin - 1).
+
+>>> Skannaaminen
+
+[Tuotteen] skannaaminen on toiminto.
+Tulkitse "skannaa [tuote]" skannaamisena.
+Tulkitse "osta [tuote]" skannaamisena.
+
+Ennen piilossa olevan tuotteen skannaamista:
+	Sano "Et näe sellaista asiaa.".
+	Keskeytä toiminto.
+
+Ennen tuotteen skannaamista:
+	Jos RV-kone on piilossa:
+		Sano "Täällä ei ole skanneria.".
+		Keskeytä toiminto.
+
+Ennen mukana olevan tuotteen skannaamista:
+	Sano "RV:ssä ei ole enää myynnissä [sitä].".
+	Keskeytä toiminto.
+
+Ennen tuotteen skannaamista:
+	Jos RV-kone on lukittu:
+		Sano fokalisoijalle "(Kirjaudutaan ensin RV-koneeseen.)".
+		Kirjaudu nyt RV-koneeseen.
+
+Juuri ennen tuotteen skannaamista:
+	Se on nyt piilossa.
+	Lisää se fokalisoijan esineluetteloon.
+
+Tuotteen skannaamisen aikana:
+	Fokalisoijan RV-saldo on nyt (fokalisoijan rv-saldo - sen hinta).
+
+Tuotteen skannaamisen jälkeen:
+	Sano fokalisoijalle "Skannaat ja ostat [sen]. RV-saldosi on [fokalisoijan RV-saldo] snt.".
+	Jos fokalisoijan RV-saldo < 0:
+		Sano fokalisoijalle "Olet miinuksella! Muista maksaa velat!".
+	Jos fokalisoijan RV-saldo < (0 - 1000) :
+		Sano fokalisoijalle "RV-kone lukittautuu tuntemattomaksi ajaksi.".
+		Fokalisoijan RV-ajastin on nyt 10.
+		RV-kone on nyt lukittu.
+
+>>> Velkojen maksaminen
+
+Velkojen maksaminen on toiminto.
+Tulkitse "maksa velat" velkojen maksamisena.
+Tulkitse "maksa velka" velkojen maksamisena.
+
+Ennen velkojen maksamista:
+	Jos fokalisoijan RV-saldo on suurempi tai yhtä suuri kuin 0:
+		Sano "Et ole tietääksesi velkaa kenellekään.".
+		Keskeytä toiminto.
+
+Velkojen maksamisen sijasta:
+	Sano "Ei sinulla ole rahaa!".
+
+>>> Syöminen ja juominen
+
+Tuotteen syömisen jälkeen:
+	Se on nyt syömäkelvoton.
+	Sen nimi koodissa on nyt "[se] (roska)".
+
+Tuotteen juomisen jälkeen:
+	Se on nyt juomakelvoton.
+	Sen nimi koodissa on nyt "[se] (tyhjä)".
+
+>>> RV-tuotteet
+
+>> RV-hylly
+
+RV-hylly on listaamaton sisältäjä Gurula-huoneessa.
+"RV:ssä on myynnissä lukuisia eri tuotteita, joista suurin osa on hyvin epäterveellisiä."
+
+RV-hyllyn kuvailemisen jälkeen:
+	Sano "[rivinvaihto]".
+	Jos RV-hylly ei ole tyhjä:
+		Sano "Alat himoita [satunnaista RV-hyllyssä olevaa tuotetta].".
+
+> Pelaaja tarkoittaa todennäköisemmin RV-hyllyssä olevaa tuotetta kuin esim. mukana olevaa tuotetta
+Tarkoittaako pelaaja RV-hyllyssä olevan tuotteen skannaamista:
+	todennäköisesti
+
+RV-hyllyssä olevan tuotteen ottamisen sijasta:
+	Sano "Et voi vain ottaa RV-hyllystä tuotteita. Sinun on ostettava ne!".
+	Keskeytä toiminto.
+
+Jim-patukka on syötävä tuote.
+"Punainen täytesuklaapatukka."
+Jim-patukan hinta on 36.
+Tulkitse "jim" Jim-patukkana.
+RV-hyllyssä on 21 Jim-patukkaa.
+
+Pätkis-patukka on syötävä tuote.
+"Klassinen Fazerin suklaapatukka."
+Pätkis-patukan hinta on 36.
+Tulkitse "pätkis" Pätkis-patukkana.
+RV-hyllyssä on 18 Pätkis-patukkaa.
+
+Sitruunalaku on syötävä tuote.
+"Herkullinen täytelaku."
+
+Suolan ja rasvan makuinen sipsipussi on syötävä tuote.
+"Estrellan 'suolan ja rasvan makuiset sipsut' ovat juuri sitä, mitä nimestä voi päätellä."
+Suolan ja rasvan makuisen sipsipussin hinta on 69.
+Tulkitse "sipsi" suolan ja rasvan makuisena sipsipussina.
+Tulkitse "sipsu" suolan ja rasvan makuisena sipsipussina.
+Tulkitse "sipsipussi" suolan ja rasvan makuisena sipsipussina.
+RV-hyllyssä on 7 suolan ja rasvan makuista sipsipussia.
+
+>> Limukaappi
+
+Limukaappi on sisältäjä Gurula-huoneessa.
+"RV:n valikoimiin kuuluu joukko jääkaapissa säilytettäviä virvoitus-, energia- ja muita juomia."
+
+Limukaapin kuvailemisen jälkeen:
+	Sano "[rivinvaihto]".
+	Jos limukaappi ei ole tyhjä:
+		Sano "Alat himoita [satunnaista limukaapissa olevaa tuotetta].".
+
+Tarkoittaako pelaaja limukaapissa olevan tuotteen skannaamista:
+	todennäköisesti
+
+Limukaapissa olevan tuotteen ottamisen sijasta:
+	Sano "Et voi vain ottaa limukaapista tuotteita. Sinun on ostettava ne!".
+	Keskeytä toiminto.
+
+XL-energiajuoma on juotava tuote.
+"Gurulaan alettiin tuoda XL:ää sen jälkeen, kun 'PK:n' maahantuonti lopetettiin. XL maistuu pahalta ja sen pääasiallinen tarkoitus on stimulaatio, tai ainakin niin sanotaan."
+XL-energiajuoman hinta on 71.
+Tulkitse "xl" XL-energiajuomana.
+Tulkitse "energiajuoma" XL-energiajuomana.
+Tulkitse "tölkki" XL-energiajuomana.
+Limukaapissa on 8 XL-energiajuomaa.
+
+Pepsi on juotava tuote.
+"Sokerista Pepsiä saa nykyään tölkissä RV:stä."
+Pepsin hinta on 86.
+Tulkitse "tölkki" Pepsinä.
+Tulkitse "limu" Pepsinä.
+Tulkitse "virvoitusjuoma" Pepsinä.
+Limukaapissa on 2 Pepsiä.
+
+Pepsi Max on juotava tuote.
+"Pepsi Max -tölkit ovat nousseet suureen suosioon Gurulassa."
+Pepsi Maxin hinta on 66.
+Tulkitse "tölkki" Pepsi Maxina.
+Tulkitse "limu" Pepsi Maxina.
+Tulkitse "virvoitusjuoma" Pepsi Maxina.
+Limukaapissa on 3 Pepsi Maxia.
+
+Sulje nimiavaruus.

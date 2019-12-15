@@ -1,0 +1,42 @@
+Gurula-huone on huone.
+"Gurula on Kumpulan tietojenkäsittelytieteilijöiden opiskelijahuone."
+Gurula-huoneen nimi koodissa on "Gurula".
+Tulkitse "gurula" Gurula-huoneena.
+
+Avaa nimiavaruus.
+
+Gurula-seinä on kiinteä listaamaton esine Gurula-huoneessa.
+"Gurulan ja Navetan välinen seinä on täynnä meemejä. Eräässä lapussa lukee 'CAUTION / Data-bearing wall / Do not knock down'."
+Gurula-seinän nimi koodissa on "Gurulan seinä".
+Tulkitse "seinä" Gurula-seinänä.
+
+Gurula-sohva on kiinteä esine Gurula-huoneessa.
+"Gurulan punainen sohva on tunnettu sokeritoukkien majapaikkana."
+Gurula-sohvan nimi koodissa on "Gurulan sohva".
+Tulkitse "sohva" Gurula-sohvana.
+
+Gurula-pöytä on kiinteä esine Gurula-huoneessa.
+"Gurulassa on kolme pöytäryhmää: yksi keskellä, yksi RV-konetta varten ja yksi sohvan keskellä. Isointa näistä sanotaan 'aikaansaantipöydäksi'."
+Gurula-pöydän nimi koodissa on "Gurulan pöytä".
+Tulkitse "pöytä" Gurula-pöytänä.
+
+Gurula-pöydän listaamisen sijasta:
+	Sano "Keskellä huoneen pohjoista päätyä on kahdesta yksittäisestä pöydästä koostuva pöytäryhmä.".
+
+Pöydän tuherrukset on kokemus.
+
+Gurula-pöydän alle katsomisen jälkeen:
+	Sano "Huomaat hetken pöytien tutkimisen jälkeen, että pöydän alapuolelle on kirjoitettu tuherruksia. Joukossa on elokuva-arvioita ja muita huomioita.".
+	Jos pöydän tuherrukset on kokeilematon:
+		Sano "Kysyt asiasta Juholta, jonka mukaan pöydän alla oleviin teksteihin ei kannata luottaa.".
+		Pöydän tuherrukset on nyt koettu.
+
+Gurula-sohvan listaamisen sijasta:
+	Sano "Huoneen eteläinen pääty on lähes kokonaan punaisen sohvan ympäröimä.".
+
+>>> Kello
+
+Gurulan kello on kiinteä listaamaton kello Gurula-huoneessa.
+"Gurulan kellossa on teipattu numero 0 numeron 12 tilalle."
+
+Sulje nimiavaruus.

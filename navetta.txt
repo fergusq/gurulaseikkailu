@@ -1,0 +1,243 @@
+Navetta on huone Gurula-huoneesta itään.
+"Navetta on Gurulan vieressä oleva tietokoneluokka, jossa on tietokoneiden lisäksi sohvia, videontoistolaitteisto, pahvirullakko ja naulakko. Seinillä on vähemmän meemejä ja enemmän ohjeita kuin Gurulassa."
+
+Navetan esittelemisen jälkeen:
+	Sano "Lännessä on Gurulaan johtava oviaukko. Navetan pohjoisella seinällä on käytävään johtava ovi.".
+
+Avaa nimiavaruus.
+
+Laitteisto on listaamaton kiinteä esine Navetassa.
+"Navetta on täynnä laitteistoa. Täällä on pöytätietokoneita, tulostin, skanneri, pelikone sekä videontoistolaitteisto. Lisäksi Navetan yhdellä seinällä on vanha kuvaputki-DOS-kone ja eräässä nurkassa toinen DOS-kone ja Windows XP-kone. Valkokankaan edessä olevalla pöydällä on Mini-SNES ja kaappiin lukittu Switch."
+Tulkitse "laite" laitteistona.
+Tulkitse "kone" laitteistona.
+
+Navetan pöytä on listaamaton kiinteä esine Navetassa.
+"Navetassa on viisi pöytäryhmää: kolme 8300-koneille, yksi DOS-koneelle sekä yksi sohvien ja valkokankaan välissä."
+Tulkitse "pöytä" Navetan pöytänä.
+Tulkitse "pöytäryhmä" Navetan pöytänä.
+
+Roskakori on listaamaton tylsä esine Navetassa.
+"Navetassa on kaksi pientä roskakoria."
+Tulkitse "roskis" roskakorina.
+
+Navetan lattia on kiinteä listaamaton esine Navetassa.
+"Navetan lattia on pölyinen ja siinä on epämääräisiä naarmuja ja tahroja. Huonekalujen alta löytyy pudonneita karkkikääreitä ja roskia."
+Tulkitse "lattia" Navetan lattiana.
+
+Navetan roska on tylsä listaamaton esine Navetassa.
+Navetan roskan nimi koodissa on "roska".
+Tulkitse "roska" Navetan roskana.
+Tulkitse "karkkikääre" Navetan roskana.
+Tulkitse "kääre" Navetan roskana.
+Tulkitse "pöly" Navetan roskana.
+
+Navetan tahra on kiinteä listaamaton esine Navetassa.
+"Et mielelläsi haluaisi pohtia tahrojen alkuperää."
+Tulkitse "tahra" Navetan tahrana.
+Tulkitse "naarmu" Navetan tahrana.
+
+>>> Tietokoneet
+
+8300-tietokone on listaamaton kiinteä tietokone.
+"HP Compaq Elite 8300 on tyypillinen yliopistossa käytettävä tietokonemalli."
+Tulkitse "pöytäkone" 8300-tietokoneena.
+
+8300-tietokoneen käyttämisen aikana:
+	Sano "Asetut pöytäkoneen eteen ja syötät tunnuksesi ja salasanasi koneeseen. Kirjautumisruutu katoaa, mutta kone jää jumiin etkä pääse käyttämään sitä.".
+
+Navetassa on 16 8300-tietokonetta.
+
+Tulostin on listaamaton kiinteä esine Navetassa.
+"Jättimäinen toimistotulostintorni seisoo Navetan seinällä paperinkeräysastian ja Satakuntalaisen osakunnan lahjoittaman DOS-koneen välissä."
+
+Skanneri on listaamaton kiinteä esine Navetassa.
+"Keskimmäisen pöytäryhmän koneiden välissä on sininen Canonin skanneri, jossa on teksti: 'Toimii Linuxissa / Works with Linux'."
+
+Pelikabinetti on listaamaton kiinteä esine Navetassa.
+"Pelikabinetti on musta puinen hökötys, jonka sisällä on Arkade-pelejä emuloiva tietokone."
+Tulkitse "kabinetti" pelikabinettina.
+Tulkitse "arkadekabinetti" pelikabinettina.
+Tulkitse "arkade-kabinetti" pelikabinettina.
+
+Pelikone on listaamaton kiinteä tietokone Navetassa.
+"Pelikabinetin sisällä on Windows 7 -kone, johon on asennettu useita Arkade-pelejä sekä Mame-emulaattoreita. Sen suosituin peli lienee Tetris 2: The Absolute The Grand Master Plus."
+
+Tetris-peli on kokemus.
+Tulkitse "tetris" Tetris-pelinä.
+
+Tetris-pelin kokeilemisen aikana:
+	Käytä nyt pelikonetta.
+
+Pelikoneen käyttämisen aikana:
+	Jos Tetris-peli on kokeilematon:
+		Sano "Valitset Mame-ohjelmasta peliksi Tetriksen ja alat pudottaa palikoita alas. Yrität vältellä aukkojen luomista, mutta pian lauta on täynnä yhden palikan levyisiä kuiluja. Odotat 1x4-palaa, jota ei koskaan tule, ja häviät.".
+		Tetris-peli on nyt koettu.
+	Muulloin:
+		Sano "Et halua pelata enää Tetristä tappiosi jälkeen.".
+
+Kuvaputki-DOS-kone on listaamaton kiinteä tietokone Navetassa.
+"Vanha DOSsilla, kuvaputkinäytöllä ja kaiuttimilla varustettu Compaq Deskpro 5120 -kone seisoo tulostimen ja oven vieressä. Sen etukyljessä on lappu: 'Helsingin yliopiston satakuntalaiselta osakunnalta 30-vuotiaalle TKO-äly ry:lle 10.11.2018'."
+
+Doom-peli on kokemus.
+Tulkitse "doom" Doom-pelinä.
+
+Doom-pelin kokeilemisen aikana:
+	Käytä nyt kuvaputki-DOS-konetta.
+
+Kuvaputki-DOS-koneen käyttämisen aikana:
+	Jos Doom-peli on kokeilematon:
+		Sano "Käynnistät DOS-koneen ja odotat kärsivällisesti muistin testaamisen ajan. Kun terminaali viimein avautuu, kirjoitat tutut komennot 'cd games\doom' ja 'doom'. Ammut tovin demoneja, mutta kyllästyt pian, sillä olet jo vetänyt kaikki tasot läpi, eikä pelissä ole enää uusia asioita.".
+		Doom-peli on nyt koettu.
+	Muulloin:
+		Sano "Sinun ei tee mieli pelata kuvaputki-DOS-koneella.".
+
+Kuvaputkinäyttö on kiinteä listaamaton esine Navetassa.
+"Satakuntalaisen osakunnan lahjoittama DOS-kone on tehokkaampi kuin valkokankaan viereisellä seinällä oleva DOS-kone, mutta sillä on heikkous: kuvaputki tekee käyttämisestä paljon epämukavampaa."
+Tulkitse "kuvaputki" kuvaputkinäyttönä.
+
+Retrokone on listaamaton kiinteä esine Navetassa.
+"Navetassa on useita retrokoneita: kaksi DOS-konetta ja XP-kone."
+
+DOS-kone on listaamaton kiinteä tietokone Navetassa.
+"Navetassa on kaksi DOS-konetta, joista toisessa on kuvaputkinäyttö ja toinen taas on liitetty valkokankaan yhteydessä olevaan monimutkaiseen videontoistolaitteistoon. Molemmissa on DOS ja Windows (toisessa 3.1 ja toisessa 3.11)."
+
+Vapaakenttä on kokemus.
+Tulkitse "pasianssi" vapaakenttänä.
+
+Vapaakentän kokeilemisen aikana:
+	Käytä nyt Dos-konetta.
+
+Dos-koneen käyttämisen aikana:
+	Sano "Käynnistät DOS-koneen ja Windowsin. Pelaat jonkin aikaa vapaakentää.".
+
+XP-kone on listaamaton kiinteä tietokone Navetassa.
+"Valkokankaan yhteydessä olevaan videontoistolaitteistoon on yhdistetty Windows XP -kone vanhojen videoformaattien toistamista varten ja vapaakentän pelaamiseen."
+
+XP-koneen käyttämisen aikana:
+	Sano "Kirjaudut XP-koneelle ja pelaat hetken vapaakenttää.".
+
+Mini-SNES-konsoli on listaamaton esine Navetassa.
+"Goforen ja Solinorin lahjoittama Nintendon Mini-SNES lepää valkokankaan edessä olevalla pöydällä. Sitä ei ole vielä onnistuttu yhdistämään videontoistolaitteistoon."
+Tulkitse "SNES" Mini-SNES-konsolina.
+Tulkitse "Mini-SNES" Mini-SNES-konsolina.
+
+Switch-konsoli on listaamaton kiinteä esine Navetassa.
+"Nintendo Switch on lukittu ketjuin kaappiin, jonka numerolukkoon tietävät koodin vain harvat."
+Tulkitse "Switch" Switch-konsolina.
+Tulkitse "Nintendo Switch" Switch-konsolina.
+Tulkitse "Nintendo" Switch-konsolina.
+
+Switch-kaappi on listaamaton kiinteä esine Navetassa.
+"Switch on lukittu turvallisuussyistä kaappiin valkokankaan edessä olevan pöydän alle, jotta sitä ei varastettaisi. Kaapissa on numerolukko."
+Tulkitse "kaappi" Switch-kaappina.
+
+Numerolukko on listaamaton tylsä esine Navetassa.
+"Switch-kaappi on lukittu numerolukolla, johon pitäisi tietää kolminumeroinen koodi."
+Tulkitse "lukko" numerolukkona.
+
+Peli on kiinteä listaamaton esine Navetassa.
+"Navetassa voi pelata useita pelejä Arkade-kabinetissa, DOS-koneilla, XP-koneella, pöytäkoneilla, Switchillä ja Mini-SNESillä."
+
+>>> Videontoisto
+
+Videontoistolaitteisto on listaamaton esine Navetassa.
+"Navetan videontoistolaitteistoon kuuluu projektorin, näytön ja valkokankaan lisäksi monimutkainen yhdistelmä jakajia, kaapeleita ja kaiuttimia."
+Tulkitse "videonkatselulaitteisto" videontoistolaitteistona.
+Tulkitse "videolaitteisto" videontoistolaitteistona.
+
+Valkokangas on listaamaton kiinteä esine Navetassa.
+"Navetassa on kaksikin valkokangasta, joista toinen on ahkerassa käytössä milloin videopelaamiskäytössä, milloin elokuvien katselussa."
+
+Projektori on listaamaton kiinteä esine Navetassa.
+"Navetan projektori on uusittu vastikään, mutta se on siitä huolimatta ikävän matalaresoluutioinen."
+
+Jakaja on listaamaton tylsä esine Navetassa.
+"Navetassa on yksi äänijakaja ja kaksi videojakajaa, joilla ääni- ja videosyötteet ohjataan oikeilta laitteilta oikeille ruuduille ja kaiuttimiin."
+Tulkitse "äänijakaja" jakajana.
+Tulkitse "videojakaja" jakajana.
+
+Kaapeli on listaamaton tylsä esine Navetassa.
+"Kaapeleita on joka puolella Navetassa, mutta varsinkin valkokankaan edessä oleva pöytä on täynnä niitä."
+
+Kaiutin on listaamaton kiinteä esine Navetassa.
+"Valkokankaan yläpuolella on kaksi kaiutinta, ja molemmissa DOS-koneissa on kaiuttimet."
+
+Ruutu on listaamaton kiinteä esine Navetassa.
+"Ruutuja Navetassa on yli kaksi kymmentä. Jokaisessa tietokoneessa on yksi, kuten myös tulostimessa."
+Tulkitse "näyttö" ruutuna.
+
+>>> Sohvat
+
+Hyvinvointisohva on listaamaton kiinteä esine Navetassa.
+"Mukava ja suosittu sininen kolmen hengen hyvinvointisohva olisi arkkitehdin mielestä varmasti paloturvallisuusriski, mutta onneksi kukaan ei ole kertonut siitä hänelle. Hyvinvointisohvan vieressä on vähemmän suosittu tasa-arvosohva."
+Tulkitse "sohva" hyvinvointisohvana.
+
+Tasa-arvosohva on listaamaton kiinteä esine Navetassa.
+"Tasa-arvosohva on vanha sininen rikkinäinen penkki, joka on palvellut jo niin kauan, ettei se ole enää edes tasa-arvoinen: puolet sohvasta on näes täynnä reikiä, mikä tekee toisesta puolikkaasta paremman. Ehkä sen aika on jo ajanut ohi."
+Tulkitse "penkki" tasa-arvosohvana.
+
+>>> Naulakko
+
+Naulakko on listaamaton kiinteä esine Navetassa.
+"Navetan naulakko on päivisin täynnä, mutta öisin siellä on vain muutamia takkeja ja epämääräisiä pusseja."
+
+Takki on tylsä listaamaton esine Navetassa.
+"Navetan naulakossa on yölläkin joukko takkeja, joiden omistajia on vaikea arvailla."
+
+Pussi on tylsä listaamaton esine Navetassa.
+"Navetan naulakossa on jostain syystä joukko epämääräisiä pusseja ja kasseja."
+Tulkitse "kassi" pussina.
+
+>>> Kierrätys
+
+Pahvirullakko on kiinteä listaamaton esine Navetassa.
+"Pahvirullakko on kenties Navetan rumin huonekalu. Se komeilee ylitsepursuavana valkokankaan ja Gurulaan johtavan oviaukon välissä."
+Tulkitse "rullakko" pahvirullakkona.
+Tulkitse "pahvi" pahvirullakkona.
+
+Paperinkeräysastia on kiinteä listaamaton sisältäjä Navetassa.
+"Vihreä paperinkeräyspönttö on seinällä naulakon ja tulostimen välissä."
+Tulkitse "keräysastia" paperinkeräysastiana.
+Tulkitse "pönttö" paperinkeräysastiana.
+Tulkitse "paperinkeräyspönttö" paperinkeräysastiana.
+
+Ruutupaperi on listaamaton esine paperinkeräysastiassa.
+"Valkoisia täysin käyttämättömiä arkkeja ruutupaperia."
+Tulkitse "paperi" ruutupaperina.
+
+Paperinkeräysastian katsomisen aikana:
+	Jos ruutupaperi on paperinkeräysastiassa:
+		Sano "Huomaat keräysastiassa pinon käyttömätöntä ruutupaperia.".
+
+Ruutupaperin ottamisen jälkeen:
+	Se on nyt listattu.
+
+>>> Meemit
+
+Navetta-meemi on kiinteä listaamaton esine Navetassa.
+"Navetan seinillä on paljon vähemmän meemejä kuin Gurulassa, vaikka moniin ohjelappuihin onkin kirjoitettu 'mme'-tuherruksia. Retrokoneiden luona on vapaakenttä- ja Generally-meemejä, ja pari meemikuvaa on teipattu takaseinille."
+Tulkitse "meemi" Navetta-meeminä.
+Tulkitse "tuherrus" Navetta-meeminä.
+Tulkitse "seinä" Navetta-meeminä.
+
+Navetta-ohje on kiinteä listaamaton esine Navetassa.
+"Navetan seinillä on paljon ohjeita, joista suurin osa liittyy tulostamiseen."
+Tulkitse "ohje" Navetta-ohjeena.
+Tulkitse "ohjelappu" Navetta-ohjeena.
+Tulkitse "lappu" Navetta-ohjeena.
+
+>>> Kello
+
+Navetan kello on kiinteä listaamaton kello Navetassa.
+
+>>> Henkilöt
+
+>> Juho
+
+Juho on lähestyttävä ihminen Navetassa.
+"Juho istuu eräällä Navetan koneista tekemässä tehtäviä."
+
+Juholle puhumisen aikana:
+	Sano "Juho kertoo sinulle mielenkiintoisia faktoja avaruusaluksista.".
+
+Sulje nimiavaruus.

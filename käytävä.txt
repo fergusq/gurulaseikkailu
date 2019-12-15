@@ -1,0 +1,137 @@
+>>> Käytävä
+
+Käytävä on huone Navetasta pohjoiseen ulos.
+"Pieni käytävä koituu tähän aikaan monien vessassa kävijöiden turmioksi: ilman avainta he eivät pääse Navettaan, toisaalta he eivät myöskään halua lähteä ulos kylmään. Heidän ainoa toivonsa on, että joku avaimellinen tulee ja päästää heidät takaisin."
+
+Käytävän esittelemisen jälkeen:
+	Sano "Etelässä on ovi Navettaan ja pohjoisessa on ovi valopihalle. Koillisessa on ulko-ovi. Lännessä on kaksi vessaa. Idässä on 'Luolaksi' kutsuttu ohjelmistotuotantoprojektiluokka ja kaakossa on 'Haxxoksi' kutsuttu hiljaisen työn tila.".
+
+Avaa nimiavaruus.
+
+Oven kuvaus on yleensä "Tavanomainen yliopiston puuovi.".
+Ovi on yleensä automaattisesti lukittuva.
+
+Käytävän ovi on listaamaton lukitsematon ovi yksisuuntaisesti Navetan ja käytävän välissä.
+Käytävän oven kuvailemisen jälkeen:
+	Sano "Ovessa on lappu, jossa lukee 'Huomiomme! Opiskelija-avaimemme ei toimi klo 01:00 - 07:00!'.".
+
+Navetan ovi on listaamaton ovi yksisuuntaisesti käytävän ja Navetan välissä.
+Navetan oven avaava avain on henkilökunta-avain.
+Navetan oven kuvailemisen jälkeen:
+	Sano "Ovi on lukittu, kuten se yleensä yöaikaan on.".
+
+Sulje nimiavaruus.
+
+>>> Valopiha
+
+Eteläinen valopiha on huone käytävästä pohjoiseen.
+"..."
+
+Avaa nimiavaruus.
+
+Valopihan ovi on listaamaton ovi käytävän ja eteläisen valopihan välissä.
+Valopihan oven avaava avain on henkilökunta-avain.
+Valopihan oven kuvailemisen jälkeen:
+	Sano "Ovi on lukittu, eikä sinne pääse ilman henkilökunta-avainta.".
+
+Sulje nimiavaruus.
+
+>>> Haxxo
+
+Haxxo-tila on huone käytävästä kaakkoon.
+"Haxxo on eräs Kumpulan yökäyttötiloista, joka toimii hiljaisen työn tilana. Tällä hetkellä se on tyhjä ja autio."
+Tulkitse "haxxo" Haxxo-tilana.
+
+Avaa nimiavaruus.
+
+Haxxo-tilan ovi on listaamaton ovi Haxxo-tilan ja käytävän välissä.
+Haxxo-tilan oven avaava avain on opiskelija-avain.
+Haxxo-tilan oven kuvailemisen jälkeen:
+	Sano "Ovi on lukittu, kuten se yleensä yöaikaan on.".
+
+Pöytä on kiinteä listaamaton esine Haxxo-tilassa.
+"Haxxossa on pöytiä, joilla on opiskelijoiden käytössä olevia tietokoneita."
+
+> Toiminto pitää keskeyttää, jotta pöydän alle katsomisen oletusviestiä ("siellä ei ole mitään") ei näytetä:
+Ennen pöydän alle katsomista:
+	Jos henkilökunta-avain on piilossa:
+		Sano "Löydät pöydän alta henkilökunta-avaimen. Onkohan joku hukannut sen?".
+		Henkilökunta-avain on nyt näkyvillä.
+		Keskeytä toiminto.
+
+Kirjahylly on kiinteä esine Haxxo-tilassa.
+"Kirjahylly sisältää vanhoja kirjoja, jotka on siirretty pois Gurulan kirjahyllystä."
+Tulkitse "hylly" kirjahyllynä.
+Tulkitse "kirja" kirjahyllynä.
+
+Sulje nimiavaruus.
+
+>>> Vessa
+
+Vessa on huone käytävästä länteen.
+"Vessa on jokseenkin epäsiisti: sen lattia on märkä, pöntössä on tahroja ja käsienkuivausrullat on roikkuvat märkinä. Ehkä ne ovat rikki?"
+
+Avaa nimiavaruus.
+
+Vessan lattia on listaamaton kiinteä esine vessassa.
+"Vessan lattia on tuntemattomasta syystä märkä. Neste on todennäköisesti vettä, tai ainakin niin uskottelet itsellesi."
+Tulkitse "vesi" vessan lattiana.
+
+Pönttö on kiinteä listaamaton esine vessassa.
+"Pöntön kannella on pisaroita ja outoja tahroja."
+Tulkitse "tahra" pönttönä.
+Tulkitse "pisara" pönttönä.
+
+Käsienkuivausrulla on listaamaton kiinteä esine vessassa.
+"Käsienkuivausrullien kangas ei ole kiristynyt sisään. Ehkä rulla on lopussa tai mekanismi on rikki."
+Tulkitse "kuivausrulla" käsienkuivausrullana.
+Tulkitse "rulla" käsienkuivausrullana.
+Tulkitse "kangas" käsienkuivausrullana.
+
+Sulje nimiavaruus.
+
+>>> Luola
+
+Luola on huone käytävästä itään.
+"Luola on entinen yökäyttötila ja uusi ohjelmistotuotantoprojektiluokka. Opiskelijat tekevät siellä usein töitä tarvitessaan rauhaa. Luolan pöydille on aseteltu lukuisia telakoita, irtonäyttöjä ja -näppäimistöjä, joihin opiskelijat yhdistävät omat koneensa."
+
+Avaa nimiavaruus.
+
+Luolan ovi on listaamaton ovi käytävän ja luolan välissä.
+Luolan oven avaava avain on opiskelija-avain.
+Luolan oven kuvailemisen jälkeen:
+	Sano "Ovi on lukittu, kuten se yleensä yöaikaan on.".
+
+Telakka on listaamaton esine Luolassa.
+"Koska niin monet opiskelijat haluavat käyttää omia koneitaan, Luolassa ei ole niitä yhtään, vaan pelkkiä telakoita eli irtonäyttöjä ja -näppäimistöjä, joihin kytkeä omat laitteet."
+Tulkitse "irtonäyttö" telakkana.
+Tulkitse "näyttö" telakkana.
+Tulkitse "irtonäppäimistö" telakkana.
+Tulkitse "näppäimistö" telakkana.
+
+Sulje nimiavaruus.
+
+>>> Piha
+
+Piha on huone käytävästä koilliseen ulos.
+"Pieni piha on Exactumin kahden siiven välissä. Suuresta ikkunasta näkee suoraan eteläiselle valopihalle."
+Pihan kuvailemisen jälkeen:
+	Sano "Näet idässä aidan ja portin. Lounaassa on ovi, josta pääsee sisään Exactumiin.".
+
+Avaa nimiavaruus.
+
+Aita on kiinteä listaamaton esine pihalla.
+"Aita on rakennettu Exactumin C- ja D-siipien väliin rajaamaan pihaa."
+
+Portti on listaamaton ovi pihalla.
+
+Ennen itään liikkumista:
+	Jos pelaaja on pihalla:
+		Sano "Et halua mennä kauemmas ulos. Sitä paitsi et ole vielä tehnyt tehtäviä, joiden deadline häämöttää.".
+		Keskeytä toiminto.
+
+Ennen portista menemistä:
+	Sano "Et halua mennä kauemmas ulos. Sitä paitsi et ole vielä tehnyt tehtäviä, joiden deadline häämöttää.".
+	Keskeytä toiminto.
+
+Sulje nimiavaruus.
