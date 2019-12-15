@@ -9,6 +9,9 @@ Tuo käytävä.
 
 >>> Meemikomentoja
 
+Avaa nimiavaruus.
+Muista navetta.
+
 Aikaan saaminen on toiminto.
 Tulkitse "saa aikaan" aikaan saamisena.
 
@@ -17,6 +20,8 @@ Aikaan saamisen sijasta:
 		Sano "Mutta nythän ehtisi vielä pelata hetken Tetristä ennen deadlinea...".
 	Muulloin:
 		Sano "Mutta nythän ehtisi vielä pelata hetken vapaakenttää ennen deadlinea...".
+
+Sulje nimiavaruus.
 
 >>> Pelin alustaminen
 

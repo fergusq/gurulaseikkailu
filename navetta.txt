@@ -4,7 +4,7 @@ Navetta on huone Gurula-huoneesta itään.
 Navetan esittelemisen jälkeen:
 	Sano "Lännessä on Gurulaan johtava oviaukko. Navetan pohjoisella seinällä on käytävään johtava ovi.".
 
-Avaa nimiavaruus.
+Avaa nimiavaruus (navetta).
 
 Laitteisto on listaamaton kiinteä esine Navetassa.
 "Navetta on täynnä laitteistoa. Täällä on pöytätietokoneita, tulostin, skanneri, pelikone sekä videontoistolaitteisto. Lisäksi Navetan yhdellä seinällä on vanha kuvaputki-DOS-kone ja eräässä nurkassa toinen DOS-kone ja Windows XP-kone. Valkokankaan edessä olevalla pöydällä on Mini-SNES ja kaappiin lukittu Switch."

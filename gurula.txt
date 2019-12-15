@@ -3,7 +3,7 @@ Gurula-huone on huone.
 Gurula-huoneen nimi koodissa on "Gurula".
 Tulkitse "gurula" Gurula-huoneena.
 
-Avaa nimiavaruus.
+Avaa nimiavaruus (gurula).
 
 Gurula-seinä on kiinteä listaamaton esine Gurula-huoneessa.
 "Gurulan ja Navetan välinen seinä on täynnä meemejä. Eräässä lapussa lukee 'CAUTION / Data-bearing wall / Do not knock down'."

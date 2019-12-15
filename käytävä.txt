@@ -6,7 +6,7 @@ Käytävä on huone Navetasta pohjoiseen ulos.
 Käytävän esittelemisen jälkeen:
 	Sano "Etelässä on ovi Navettaan ja pohjoisessa on ovi valopihalle. Koillisessa on ulko-ovi. Lännessä on kaksi vessaa. Idässä on 'Luolaksi' kutsuttu ohjelmistotuotantoprojektiluokka ja kaakossa on 'Haxxoksi' kutsuttu hiljaisen työn tila.".
 
-Avaa nimiavaruus.
+Avaa nimiavaruus (käytävä).
 
 Oven kuvaus on yleensä "Tavanomainen yliopiston puuovi.".
 Ovi on yleensä automaattisesti lukittuva.
@@ -27,7 +27,7 @@ Sulje nimiavaruus.
 Eteläinen valopiha on huone käytävästä pohjoiseen.
 "..."
 
-Avaa nimiavaruus.
+Avaa nimiavaruus (valopiha).
 
 Valopihan ovi on listaamaton ovi käytävän ja eteläisen valopihan välissä.
 Valopihan oven avaava avain on henkilökunta-avain.
@@ -42,7 +42,7 @@ Haxxo-tila on huone käytävästä kaakkoon.
 "Haxxo on eräs Kumpulan yökäyttötiloista, joka toimii hiljaisen työn tilana. Tällä hetkellä se on tyhjä ja autio."
 Tulkitse "haxxo" Haxxo-tilana.
 
-Avaa nimiavaruus.
+Avaa nimiavaruus (haxxo).
 
 Haxxo-tilan ovi on listaamaton ovi Haxxo-tilan ja käytävän välissä.
 Haxxo-tilan oven avaava avain on opiskelija-avain.
@@ -71,7 +71,7 @@ Sulje nimiavaruus.
 Vessa on huone käytävästä länteen.
 "Vessa on jokseenkin epäsiisti: sen lattia on märkä, pöntössä on tahroja ja käsienkuivausrullat on roikkuvat märkinä. Ehkä ne ovat rikki?"
 
-Avaa nimiavaruus.
+Avaa nimiavaruus (vessa).
 
 Vessan lattia on listaamaton kiinteä esine vessassa.
 "Vessan lattia on tuntemattomasta syystä märkä. Neste on todennäköisesti vettä, tai ainakin niin uskottelet itsellesi."
@@ -95,7 +95,7 @@ Sulje nimiavaruus.
 Luola on huone käytävästä itään.
 "Luola on entinen yökäyttötila ja uusi ohjelmistotuotantoprojektiluokka. Opiskelijat tekevät siellä usein töitä tarvitessaan rauhaa. Luolan pöydille on aseteltu lukuisia telakoita, irtonäyttöjä ja -näppäimistöjä, joihin opiskelijat yhdistävät omat koneensa."
 
-Avaa nimiavaruus.
+Avaa nimiavaruus (luola).
 
 Luolan ovi on listaamaton ovi käytävän ja luolan välissä.
 Luolan oven avaava avain on opiskelija-avain.
@@ -118,7 +118,7 @@ Piha on huone käytävästä koilliseen ulos.
 Pihan kuvailemisen jälkeen:
 	Sano "Näet idässä aidan ja portin. Lounaassa on ovi, josta pääsee sisään Exactumiin.".
 
-Avaa nimiavaruus.
+Avaa nimiavaruus (piha).
 
 Aita on kiinteä listaamaton esine pihalla.
 "Aita on rakennettu Exactumin C- ja D-siipien väliin rajaamaan pihaa."
