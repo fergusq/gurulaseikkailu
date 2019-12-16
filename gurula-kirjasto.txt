@@ -39,8 +39,9 @@ Laskuharjoituksen miettimisen aikana:
 >> Kertominen
 
 Tulkitse "puhu [ihmiselle] [asiasta]" kertomisena.
-Tulkitse "kysy [ihmiseltä] [asiasta]" kertomisena.
+Tulkitse "puhu [asiasta] [ihmiselle]" kertomisena.
 Tulkitse "mainitse [ihmiselle] [asiasta]" kertomisena.
+Tulkitse "mainitse [asiasta] [ihmiselle]" kertomisena.
 
 >> Käyttäminen
 

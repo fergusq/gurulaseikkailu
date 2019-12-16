@@ -103,7 +103,7 @@ Luolan oven kuvailemisen jälkeen:
 	Sano "Ovi on lukittu, kuten se yleensä yöaikaan on.".
 
 Telakka on listaamaton esine Luolassa.
-"Koska niin monet opiskelijat haluavat käyttää omia koneitaan, Luolassa ei ole niitä yhtään, vaan pelkkiä telakoita eli irtonäyttöjä ja -näppäimistöjä, joihin kytkeä omat laitteet."
+"Koska niin monet opiskelijat haluavat käyttää omia koneitaan, Luolassa ei ole niitä valmiina yhtään, vaan pelkkiä telakoita eli irtonäyttöjä ja -näppäimistöjä, joihin kytkeä omat laitteet."
 Tulkitse "irtonäyttö" telakkana.
 Tulkitse "näyttö" telakkana.
 Tulkitse "irtonäppäimistö" telakkana.

@@ -11,30 +11,25 @@ Laitteisto on listaamaton kiinteä esine Navetassa.
 Tulkitse "laite" laitteistona.
 Tulkitse "kone" laitteistona.
 
-Navetan pöytä on listaamaton kiinteä esine Navetassa.
+Pöytä on listaamaton kiinteä esine Navetassa.
 "Navetassa on viisi pöytäryhmää: kolme 8300-koneille, yksi DOS-koneelle sekä yksi sohvien ja valkokankaan välissä."
-Tulkitse "pöytä" Navetan pöytänä.
-Tulkitse "pöytäryhmä" Navetan pöytänä.
+Tulkitse "pöytäryhmä" pöytänä.
 
 Roskakori on listaamaton tylsä esine Navetassa.
 "Navetassa on kaksi pientä roskakoria."
 Tulkitse "roskis" roskakorina.
 
-Navetan lattia on kiinteä listaamaton esine Navetassa.
+Lattia on kiinteä listaamaton esine Navetassa.
 "Navetan lattia on pölyinen ja siinä on epämääräisiä naarmuja ja tahroja. Huonekalujen alta löytyy pudonneita karkkikääreitä ja roskia."
-Tulkitse "lattia" Navetan lattiana.
 
-Navetan roska on tylsä listaamaton esine Navetassa.
-Navetan roskan nimi koodissa on "roska".
-Tulkitse "roska" Navetan roskana.
-Tulkitse "karkkikääre" Navetan roskana.
-Tulkitse "kääre" Navetan roskana.
-Tulkitse "pöly" Navetan roskana.
+Roska on tylsä listaamaton esine Navetassa.
+Tulkitse "karkkikääre" roskana.
+Tulkitse "kääre" roskana.
+Tulkitse "pöly" roskana.
 
-Navetan tahra on kiinteä listaamaton esine Navetassa.
+Tahra on kiinteä listaamaton esine Navetassa.
 "Et mielelläsi haluaisi pohtia tahrojen alkuperää."
-Tulkitse "tahra" Navetan tahrana.
-Tulkitse "naarmu" Navetan tahrana.
+Tulkitse "naarmu" tahrana.
 
 >>> Tietokoneet
 
@@ -239,5 +234,8 @@ Juho on lähestyttävä ihminen Navetassa.
 
 Juholle puhumisen aikana:
 	Sano "Juho kertoo sinulle mielenkiintoisia faktoja avaruusaluksista.".
+
+Juholta henkilökunta-avaimesta kysymisen sijasta:
+	Sano "Kerrot Juholle henkilökunta-avaimesta ja kysyt, onko se hänen. Juho pudistaa päätään. 'Ehkä se kannattaisi viedä vahtimestarille?' hän ehdottaa.".
 
 Sulje nimiavaruus.
