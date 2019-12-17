@@ -122,7 +122,9 @@ Tarkoittaako pelaaja RV-hyllyssä olevan tuotteen skannaamista:
 
 RV-hyllyssä olevan tuotteen ottamisen sijasta:
 	Sano "Et voi vain ottaa RV-hyllystä tuotteita. Sinun on ostettava ne!".
-	Keskeytä toiminto.
+
+RV-hyllyssä olevan tuotteen syömisen sijasta:
+	Sano "Et voi vain ottaa RV-hyllystä tuotteita. Sinun on ostettava ne!".
 
 Jim-patukka on syötävä tuote.
 "Punainen täytesuklaapatukka."
@@ -162,7 +164,9 @@ Tarkoittaako pelaaja limukaapissa olevan tuotteen skannaamista:
 
 Limukaapissa olevan tuotteen ottamisen sijasta:
 	Sano "Et voi vain ottaa limukaapista tuotteita. Sinun on ostettava ne!".
-	Keskeytä toiminto.
+
+Limukaapissa olevan tuotteen juomisen sijasta:
+	Sano "Et voi vain ottaa limukaapista tuotteita. Sinun on ostettava ne!".
 
 XL-energiajuoma on juotava tuote.
 "Gurulaan alettiin tuoda XL:ää sen jälkeen, kun 'PK:n' maahantuonti lopetettiin. XL maistuu pahalta ja sen pääasiallinen tarkoitus on stimulaatio, tai ainakin niin sanotaan."
