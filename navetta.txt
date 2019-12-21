@@ -233,9 +233,18 @@ Juho on lähestyttävä ihminen Navetassa.
 "Juho istuu eräällä Navetan koneista tekemässä tehtäviä."
 
 Juholle puhumisen aikana:
-	Sano "Juho kertoo sinulle mielenkiintoisia faktoja avaruusaluksista.".
+	Ensin:
+		Sano "Juho kertoo sinulle mielenkiintoisia faktoja avaruusaluksista.".
+	Sitten:
+		Sano "Juho kertoo sinulle mielenkiintoisia faktoja reptiliaaneista.".
 
 Juholta henkilökunta-avaimesta kysymisen sijasta:
-	Sano "Kerrot Juholle henkilökunta-avaimesta ja kysyt, onko se hänen. Juho pudistaa päätään. 'Ehkä se kannattaisi viedä vahtimestarille?' hän ehdottaa.".
+	Kerran:
+		Sano "Kerrot Juholle henkilökunta-avaimesta ja kysyt, onko se hänen. Juho pudistaa päätään. 'Ehkä se kannattaisi viedä vahtimestarille?' hän ehdottaa.".
+	Muulloin:
+		Sano "Kysyt uudestaan Juholta, eikä hän vieläkään tiedä mitään.".
+
+Juholle henkilökunta-avaimen kertomisen sijasta:
+	Kysy nyt Juholta siitä.
 
 Sulje nimiavaruus.
