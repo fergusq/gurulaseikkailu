@@ -25,14 +25,21 @@ Sulje nimiavaruus.
 >>> Valopiha
 
 Eteläinen valopiha on huone käytävästä pohjoiseen.
-"..."
+"Oven mustan avaimenlukijan väri muuttuu punaisesta vihreäksi ja lukko avautuu. Astut koko kerroksen korkuiselle valopihalle."
 
 Avaa nimiavaruus (valopiha).
+
+Eteläisen valopihan esittelemisen jälkeen:
+	Sen kuvaus on nyt "Koko kerroksen korkuinen sali.".
+	Sano "Näet täällä paljon pyöreitä pöytiä. Ylös johtavat portaat Exactumin käytävälle. Pohjoisessa on toiselle valopihalle johtava käytävä.".
 
 Valopihan ovi on listaamaton ovi käytävän ja eteläisen valopihan välissä.
 Valopihan oven avaava avain on henkilökunta-avain.
 Valopihan oven kuvailemisen jälkeen:
 	Sano "Ovi on lukittu, eikä sinne pääse ilman henkilökunta-avainta.".
+
+Pöytä on kiinteä listaamaton esine eteläisellä valopihalla.
+"Valopihalla on pyöreitä pöytiä, joissa päiväsaikaan olisi lounastajia."
 
 Sulje nimiavaruus.
 
