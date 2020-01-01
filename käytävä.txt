@@ -45,18 +45,19 @@ Sulje nimiavaruus.
 
 >>> Haxxo
 
-Haxxo-tila on huone käytävästä kaakkoon.
+"Haxxo" on substantiivi.
+
+Haxxo on huone käytävästä kaakkoon.
 "Haxxo on eräs Kumpulan yökäyttötiloista, joka toimii hiljaisen työn tilana. Tällä hetkellä se on tyhjä ja autio."
-Tulkitse "haxxo" Haxxo-tilana.
 
 Avaa nimiavaruus (haxxo).
 
-Haxxo-tilan ovi on listaamaton ovi Haxxo-tilan ja käytävän välissä.
-Haxxo-tilan oven avaava avain on opiskelija-avain.
-Haxxo-tilan oven kuvailemisen jälkeen:
+Haxxon ovi on listaamaton ovi Haxxon ja käytävän välissä.
+Haxxon oven avaava avain on opiskelija-avain.
+Haxxon oven kuvailemisen jälkeen:
 	Sano "Ovi on lukittu, kuten se yleensä yöaikaan on.".
 
-Pöytä on kiinteä listaamaton esine Haxxo-tilassa.
+Pöytä on kiinteä listaamaton esine Haxxossa.
 "Haxxossa on pöytiä, joilla on opiskelijoiden käytössä olevia tietokoneita."
 
 > Toiminto pitää keskeyttää, jotta pöydän alle katsomisen oletusviestiä ("siellä ei ole mitään") ei näytetä:
@@ -66,7 +67,7 @@ Ennen pöydän alle katsomista:
 		Henkilökunta-avain on nyt näkyvillä.
 		Keskeytä toiminto.
 
-Kirjahylly on kiinteä esine Haxxo-tilassa.
+Kirjahylly on kiinteä esine Haxxossa.
 "Kirjahylly sisältää vanhoja kirjoja, jotka on siirretty pois Gurulan kirjahyllystä."
 Tulkitse "hylly" kirjahyllynä.
 Tulkitse "kirja" kirjahyllynä.

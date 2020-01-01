@@ -13,6 +13,12 @@ Avun pyytämisen jälkeen:
 	Sano "- 'tutki naulakkoa' (lyhenne: 't naulakko')[rivinvaihto]".
 	Sano "- 'käytä dos-konetta'[rivinvaihto]".
 	Sano "- 'mene länteen' (lyhenne: 'l', lännessä on Gurula)[rivinvaihto]".
+	Sano "- 'katso pöydän alle'[rivinvaihto]".
+	Sano "- 'esineet'[rivinvaihto]".
+	Sano "[rivinvaihto]".
+	Sano "Tärkeät mekaniikat:[rivinvaihto]".
+	Sano "- Suunnat: Huoneet on järjestetty ilmansuuntiin toisiinsa nähden. Liikkuminen on helpointa suuntien mukaan.".
+	Sano "- Esineet: 'tutki' kuvailee esinettä, 'ota' ottaa sen mukaan, 'esineet' tulostaa mukana olevat esineet.".
 
 >> Huoneen katsominen
 

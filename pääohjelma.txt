@@ -16,7 +16,7 @@ Aikaan saaminen on toiminto.
 Tulkitse "saa aikaan" aikaan saamisena.
 
 Aikaan saamisen sijasta:
-	Jos Tetris-peli on kokeilematon:
+	Jos Tetris on kokeilematon:
 		Sano "Mutta nythän ehtisi vielä pelata hetken Tetristä ennen deadlinea...".
 	Muulloin:
 		Sano "Mutta nythän ehtisi vielä pelata hetken vapaakenttää ennen deadlinea...".

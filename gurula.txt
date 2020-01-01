@@ -1,18 +1,18 @@
-Gurula-huone on huone.
+"Gurula" on substantiivi.
+
+Gurula on huone.
 "Gurula on Kumpulan tietojenkäsittelytieteilijöiden opiskelijahuone."
-Gurula-huoneen nimi koodissa on "Gurula".
-Tulkitse "gurula" Gurula-huoneena.
 
 Avaa nimiavaruus (gurula).
 
-Gurulan seinä on kiinteä listaamaton esine Gurula-huoneessa.
+Gurulan seinä on kiinteä listaamaton esine Gurulassa.
 "Gurulan ja Navetan välinen seinä on täynnä meemejä. Eräässä lapussa lukee 'CAUTION / Data-bearing wall / Do not knock down'."
 Tulkitse "seinä" Gurulan seinänä.
 
-Sohva on kiinteä esine Gurula-huoneessa.
+Sohva on kiinteä esine Gurulassa.
 "Gurulan punainen sohva on tunnettu sokeritoukkien majapaikkana."
 
-Pöytä on kiinteä esine Gurula-huoneessa.
+Pöytä on kiinteä esine Gurulassa.
 "Gurulassa on kolme pöytäryhmää: yksi keskellä, yksi RV-konetta varten ja yksi sohvan keskellä. Isointa näistä sanotaan 'aikaansaantipöydäksi'."
 Tulkitse "pöytäryhmä" pöytänä.
 
@@ -29,7 +29,7 @@ Sohvan listaamisen sijasta:
 
 >>> Kello
 
-Gurulan kello on kiinteä listaamaton kello Gurula-huoneessa.
+Gurulan kello on kiinteä listaamaton kello Gurulassa.
 "Gurulan kellossa on teipattu numero 0 numeron 12 tilalle."
 
 Sulje nimiavaruus.

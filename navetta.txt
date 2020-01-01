@@ -1,4 +1,4 @@
-Navetta on huone Gurula-huoneesta itään.
+Navetta on huone Gurulasta itään.
 "Navetta on Gurulan vieressä oleva tietokoneluokka, jossa on tietokoneiden lisäksi sohvia, videontoistolaitteisto, pahvirullakko ja naulakko. Seinillä on vähemmän meemejä ja enemmän ohjeita kuin Gurulassa."
 
 Navetan esittelemisen jälkeen:
@@ -55,34 +55,36 @@ Tulkitse "arkadekabinetti" pelikabinettina.
 Tulkitse "arkade-kabinetti" pelikabinettina.
 
 Pelikone on listaamaton kiinteä tietokone Navetassa.
-"Pelikabinetin sisällä on Windows 7 -kone, johon on asennettu useita Arkade-pelejä sekä Mame-emulaattoreita. Sen suosituin peli lienee Tetris 2: The Absolute The Grand Master Plus."
+"Pelikabinetin sisällä on Windows 7 -kone, johon on asennettu useita Arkade-pelejä sekä Mame-emulaattoreita. Sen suosituin peli lienee Tetris: The Absolute The Grand Master 2 Plus."
 
-Tetris-peli on kokemus.
-Tulkitse "tetris" Tetris-pelinä.
+"Tetris" on substantiivi.
 
-Tetris-pelin kokeilemisen aikana:
+Tetris on kokemus.
+
+Tetriksen kokeilemisen aikana:
 	Käytä nyt pelikonetta.
 
 Pelikoneen käyttämisen aikana:
-	Jos Tetris-peli on kokeilematon:
+	Jos Tetris on kokeilematon:
 		Sano "Valitset Mame-ohjelmasta peliksi Tetriksen ja alat pudottaa palikoita alas. Yrität vältellä aukkojen luomista, mutta pian lauta on täynnä yhden palikan levyisiä kuiluja. Odotat 1x4-palaa, jota ei koskaan tule, ja häviät.".
-		Tetris-peli on nyt koettu.
+		Tetris on nyt koettu.
 	Muulloin:
 		Sano "Et halua pelata enää Tetristä tappiosi jälkeen.".
 
 Kuvaputki-DOS-kone on listaamaton kiinteä tietokone Navetassa.
 "Vanha DOSsilla, kuvaputkinäytöllä ja kaiuttimilla varustettu Compaq Deskpro 5120 -kone seisoo tulostimen ja oven vieressä. Sen etukyljessä on lappu: 'Helsingin yliopiston satakuntalaiselta osakunnalta 30-vuotiaalle TKO-äly ry:lle 10.11.2018'."
 
-Doom-peli on kokemus.
-Tulkitse "doom" Doom-pelinä.
+"Doom" on substantiivi.
 
-Doom-pelin kokeilemisen aikana:
+Doom on kokemus.
+
+Doomin kokeilemisen aikana:
 	Käytä nyt kuvaputki-DOS-konetta.
 
 Kuvaputki-DOS-koneen käyttämisen aikana:
-	Jos Doom-peli on kokeilematon:
+	Jos Doom on kokeilematon:
 		Sano "Käynnistät DOS-koneen ja odotat kärsivällisesti muistin testaamisen ajan. Kun terminaali viimein avautuu, kirjoitat tutut komennot 'cd games\doom' ja 'doom'. Ammut tovin demoneja, mutta kyllästyt pian, sillä olet jo vetänyt kaikki tasot läpi, eikä pelissä ole enää uusia asioita.".
-		Doom-peli on nyt koettu.
+		Doom on nyt koettu.
 	Muulloin:
 		Sano "Sinun ei tee mieli pelata kuvaputki-DOS-koneella.".
 
@@ -115,6 +117,8 @@ Mini-SNES-konsoli on listaamaton esine Navetassa.
 "Goforen ja Solinorin lahjoittama Nintendon Mini-SNES lepää valkokankaan edessä olevalla pöydällä. Sitä ei ole vielä onnistuttu yhdistämään videontoistolaitteistoon."
 Tulkitse "SNES" Mini-SNES-konsolina.
 Tulkitse "Mini-SNES" Mini-SNES-konsolina.
+
+"Switch" on substantiivi.
 
 Switch-konsoli on listaamaton kiinteä esine Navetassa.
 "Nintendo Switch on lukittu ketjuin kaappiin, jonka numerolukkoon tietävät koodin vain harvat."

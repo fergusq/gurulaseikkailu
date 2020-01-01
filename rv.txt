@@ -2,7 +2,7 @@ Avaa nimiavaruus.
 
 >>> RV-kone
 
-RV-kone on kiinteä avattava lukittu tietokone Gurula-huoneessa.
+RV-kone on kiinteä avattava lukittu tietokone Gurulassa.
 "Navetan oven viereisellä pöydällä lepää RV-kone, jolla voi ostaa erilaisia tuotteita."
 Tulkitse "rv" RV-koneena.
 
@@ -108,7 +108,7 @@ Tuotteen juomisen jälkeen:
 
 >> RV-hylly
 
-RV-hylly on listaamaton sisältäjä Gurula-huoneessa.
+RV-hylly on listaamaton sisältäjä Gurulassa.
 "RV:ssä on myynnissä lukuisia eri tuotteita, joista suurin osa on hyvin epäterveellisiä."
 
 RV-hyllyn kuvailemisen jälkeen:
@@ -151,7 +151,7 @@ RV-hyllyssä on 7 suolan ja rasvan makuista sipsipussia.
 
 >> Limukaappi
 
-Limukaappi on sisältäjä Gurula-huoneessa.
+Limukaappi on sisältäjä Gurulassa.
 "RV:n valikoimiin kuuluu joukko jääkaapissa säilytettäviä virvoitus-, energia- ja muita juomia."
 
 Limukaapin kuvailemisen jälkeen:
